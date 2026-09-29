@@ -57,7 +57,8 @@ if __name__ == "__main__":
         description="Analyzes Cloudflare logs in a fairly basic way. written very late at night",
         epilog="wruffwruffwruff")
     parser.add_argument('filename')
+    parser.add_argument("-c",dest='badIpThreshold',type=int,default=0)
     args=parser.parse_args()
     # by this point, args.filename should exist
     mainclass = LogAnalysis(args.filename)
-    print(mainclass.pullBadIPs(0))
+    print(mainclass.pullBadIPs(args.badIpThreshold))
