@@ -1,0 +1,132 @@
+{
+    "45102": {
+        "desc":"ALIBABA-CN-NET",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "16509": {
+        "desc":"AMAZON-02",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "14618": {
+        "desc":"AMAZON-AES",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "213394": {
+        "desc":"Clever Cloud",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "14061": {
+        "desc":"DigitalOcean",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "48579": {
+        "desc":"Elastx",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "29423": {
+        "desc":"Gridscale",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "24940": {
+        "desc":"Hetzner Online",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "64999": {
+        "desc":"IBM",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "8560": {
+        "desc":"IONOS",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "63949": {
+        "desc":"Linode (Akamai)",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "8075": {
+        "desc":"MICROSOFT-CORP-MSN-AS-BLOCK",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "31898": {
+        "desc":"ORACLE-BMC-31898",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "16276": {
+        "desc":"OVHcloud",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "27357": {
+        "desc":"RACKSPACE",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "203532": {
+        "desc":"S3NS Premi3ns",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "12876": {
+        "desc":"Scaleway",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "12637": {
+        "desc":"Seeweb",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "25697": {
+        "desc":"UpCloud",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "20473": {
+        "desc":"Vultr",
+        "type":"Cloud",
+        "useCase":"",
+        "src":"0"
+    },
+    "156": {
+        "desc":"Northeastern University",
+        "type":"Academic",
+        "useCase":"Education",
+        "src":"nu"
+    },
+    "srcs": {
+        "0":"https://docs.cloud.google.com/data-transfer-essentials/docs/asn",
+        "nu":"https://ipinfo.io/AS156"
+    }
+}
