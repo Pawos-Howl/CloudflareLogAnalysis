@@ -20,7 +20,7 @@ class CloudflareRayLog():
         self.rayName=             self.entryDict["rayName"]
         self.userAgent=           self.entryDict["userAgent"]
 
-    def userAgentLength()->int:
+    def userAgentLength(self)->int:
         """Returns the length of the userAgent in params (parenthesis segments count once)
         WARNING: UNTESTED"""
         length=0
@@ -35,8 +35,8 @@ class CloudflareRayLog():
             elif block[-1] == ")": isParen = False
         
         return length
-        
-    def ipVersion()->int:
+
+    def ipVersion(self)->int:
         """Returns 4 if the version of the IP protocol is IPv4, and returns 6 otherwise (since the regex is too big for me)"""
         # https://regexbox.com/regex-templates/ip
         ipv4=r'^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?).){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$'
